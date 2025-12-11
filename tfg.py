@@ -28,7 +28,9 @@ def extraer_datos ():
 
 
 
-extraer_datos()    
+if __name__ == "__main__":
+    extraer_datos()
+   
    
 import math 
 import base64
